@@ -1,4 +1,4 @@
-From b5d6c97658d8a15ec16f77b540ebd9b516da72d7 Mon Sep 17 00:00:00 2001
+From b247a91f184d431971f7c577defa0d2c27688aab Mon Sep 17 00:00:00 2001
 From: Jose Luis Blanco-Claraco <joseluisblancoc@gmail.com>
 Date: Thu, 8 Jun 2023 00:19:04 +0200
 Subject: [PATCH] debian/rules: use GTSAM_USE_SYSTEM_EIGEN=ON
@@ -21,5 +21,5 @@ index 284a071..a7c2535 100755
  
  override_dh_auto_build:
 -- 
-2.34.1
+2.49.0
 
